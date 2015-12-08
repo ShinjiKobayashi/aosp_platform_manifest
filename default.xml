@@ -3,10 +3,12 @@
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
+  <remote  name="aosp-mirror"
+           fetch="aosp-mirror@10.78.233.101:mirror/" />
   <remote  name="jaosp"
-           fetch="https://github.com/JAOSP/" />
-  <default revision="refs/tags/android-5.0.0_r7"
-           remote="aosp"
+           fetch="https://github.com/ShinjiKobayashi/" />
+  <default revision="refs/tags/android-5.1.1_r30"
+           remote="aosp-mirror"
            sync-j="4" />
 
 <!-- JAOSP -->
